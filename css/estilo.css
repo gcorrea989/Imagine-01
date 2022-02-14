@@ -1,0 +1,206 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+    color: rgba(39, 39, 39, 0.5);
+    line-height: 1.5em;
+}
+
+img{
+    max-width: 100%;
+  }
+  
+  p {
+    margin: 0 0 2em;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    color: rgba(58, 58, 58, 0.5);
+    font-weight: normal;
+    margin: 1em 0;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #777;
+
+  }
+
+  a:hover{
+    transition: color 0.4s linear, border 0.4s linear;
+    border-bottom: transparent;
+    color: aquamarine;
+  }
+
+  ul,ol {
+    margin: 0%;
+    padding: 0%;
+    list-style-position: inside;
+    padding-left: 0.5em;
+  }
+  li {
+    padding-left: 0.5em;
+  }
+  
+  input, label, textarea, select{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input, textarea, select{
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    margin-top: 1em;
+  }
+  input:focus, textarea:focus{
+    border: 3px solid #49bf9d;
+    outline: none;
+  }
+  
+  textarea{
+    height: 10em;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+    width: auto;
+  }
+  span, label{
+      font-weight: bold;
+  }
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    background-color: #777;
+    padding: 75px 30px 75px;
+    box-sizing: border-box;
+    background-image: url(/imagens/overlay.png), url(/imagens/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+
+.main-header h1, h2{
+    color: rgba(225, 225, 225, 0.60);
+}
+
+.main-header img{
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    border: 5px rgb(172, 172, 172) solid;
+    box-shadow: 0 3px 3px rgb(49, 49, 49);
+}
+
+.main-content{
+    padding: 75px 30px 75px;
+    box-sizing: border-box;
+    margin-left: 35%;
+    height: 100%;
+    width: 65%;
+}
+
+.main-content h3{
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.main-footer{
+  position: fixed;
+  bottom: 0;
+  width: 35%;
+  padding: 0 36px 72px 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 10px;
+  color: #929292;
+}
+
+.main-footer h3{
+    font-size: 2.1em;
+    color: #929292;
+    margin: 10px 10px;
+
+}
+
+.ul-icons li {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0.5em;
+}
+.row {
+    overflow: auto;
+  }
+  
+  .col-2 {
+    width: 48%;
+    float: left;
+  }
+  
+  .col-2:first-child{
+    margin-right: 1%;
+  }
+  
+  .col-2:last-child{
+    margin-left: 1%;
+}
+  
+  .col2-3{
+    width: 66%;
+    float: left;
+}
+
+.col1-3{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1em;
+  }
+  
+  .col1-3:nth-child(3n-2){
+    margin-right: 2%;
+  }
+  
+  .col1-3:nth-child(3n){
+    margin-left: 2%;
+  }
+
+  .button-default{
+    background-color: #49bf9d;
+    border: 3px solid #49bf9d;
+    color: white;
+    padding: .75em 2.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+    margin-bottom: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .button-default:hover{
+    background-color: #38cfa4;
+    border-color: transparent;
+  }
+  
+  .button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+  }
+  
+  .button-default-stroke:hover{
+    color: #49bf9d;
+    border-color: #49bf9d;
+    border-bottom-color: solid;
+    background-color: white;
+  }
